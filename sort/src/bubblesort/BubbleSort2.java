@@ -1,7 +1,7 @@
 package bubblesort;
 /**
  * @ClassNmae: BubbleSort2
- * @Description: java类作用描述
+ * @Description: 冒泡
  * @Author: zhulin
  * @CreateDate: 2020/4/20$ 17:05$
  * @UpdateUser: zl
@@ -10,4 +10,5 @@ package bubblesort;
  * @Version: 1.0
  */
 public class BubbleSort2 {
+
 }
