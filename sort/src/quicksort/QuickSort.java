@@ -2,7 +2,9 @@ package quicksort;
 
 /**
  * @ClassNmae: QuickSort
- * @Description: 快速排序
+ * @Description: 快速排序：假设数组的最左边为基准值，设置两个哨兵i和j,分别指向数组的最左边和最右边，然后哨兵j先动，向左边搜索找到小于基准值的下标，
+ * 找到后哨兵i开始向右边搜索找到大于基准值的下标，在这个过程中保证i<j，若找到，交换这两个下标的值，若i=j，则将a[j]与基准值交换，之后a[i]左边比a[i]
+ * 小，右边比a[i]大，然后对左右两边进行同样的操作
  * @Author: zhulin
  * @CreateDate: 2020/4/20$ 17:37$
  * @UpdateUser: zhulin
