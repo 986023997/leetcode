@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+import selectionsort.SelectionSort;
+
+import java.util.Arrays;
 
 /**
  * @ClassNmae: SelectionSortTest
@@ -11,4 +13,9 @@ package PACKAGE_NAME;
  * @Version: 1.0
  */
 public class SelectionSortTest {
+    public static void main(String[] args) {
+        int []a=new int[]{8,9,2,5,7,3,6,1};
+        SelectionSort.selectionSort(a);
+        System.out.println("最终排序："+Arrays.toString(a));
+    }
 }

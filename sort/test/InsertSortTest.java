@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+import insertsort.InsertSort;
 
 /**
  * @ClassNmae: InsertSortTest
@@ -11,4 +11,8 @@ package PACKAGE_NAME;
  * @Version: 1.0
  */
 public class InsertSortTest {
+    public static void main(String[] args) {
+        int []a=new int[]{8,9,2,5,7,3,6,1};
+        InsertSort.insertSort(a);
+    }
 }
