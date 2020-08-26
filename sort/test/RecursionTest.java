@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+import Recursion.Recursion;
 
 /**
  * @ClassNmae: RecursionTest
@@ -11,4 +11,7 @@ package PACKAGE_NAME;
  * @Version: 1.0
  */
 public class RecursionTest {
+    public static void main(String[] args) {
+        System.out.println(Recursion.nFactorial(5));
+    }
 }
